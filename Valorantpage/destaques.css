@@ -1,0 +1,18 @@
+.agentes{
+    margin: 50px;
+    color: #ffffff;
+    padding: 17px .3rem;
+    margin-left: 550px;
+
+}
+
+@media only screen and (max-device-width: 900px) {
+    .agentes { width:100%; } 
+}
+
+.carousel-inner .item{
+    height: 500px;
+    background-color: rgba(119, 119, 119, 0.233);
+    margin-top: 0px;
+    max-width: 100%;
+}
