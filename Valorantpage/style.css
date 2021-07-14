@@ -1,41 +1,29 @@
 body{
     background: #ece8e1;
 }
-
 header{
     background: black;
     padding: 5px;
     width: 100%;
 
 }
-
 .cabecalhoPrincipal_banner{
-    
     width: 100px;
-    margin-right: 65%;
-    
+    margin-right: 65%;  
 }
 @media only screen and (max-device-width: 900px) {
     .cabecalhoPrincipal_banner { width:100%; } 
 }
-
 .imagem{
-    
     display: inline-block;
-    justify-content: center;
-    
+    justify-content: center;  
 }  
-
-
-
 /*footter*/
 footer {
 	text-align: center;
 	background:black;
     padding: 50px 50px;
-
 }
-
 .copyright {
 	color: #FFFFFF;
 	font-size: 15px;
@@ -44,26 +32,15 @@ footer {
 @media only screen and (max-device-width: 900px) {
     .copyright { width:100%; } 
 }
-
-
-@media all and (min-width:720px) {
-    .footer{
-        max-width: 100%;
-    }
-    
-}
-
 main{
     height: 100%;
     background-color: #ece8e1;
 }
-
 @media screen and (min-width:
 1024px) {
- #main { min-width: 1000px; }
+ main { min-width: 1000px; }
 }
 .titulo_video{
- 
     color: #ffffff;
     padding: 5px .4rem;
     text-align: center;
@@ -73,7 +50,6 @@ main{
     margin-top: 50px;
     font-family: 'Suez One', serif;
 }
-
 .tvideo{
     align-items: flex-end;
     justify-content: center;
@@ -83,22 +59,11 @@ main{
     padding-left: 100px;
  
 }
-
 .valorant{
     font-size: 30px ;
     padding: 5px;
     font-weight: bold;
 }
-
 @media only screen and (max-device-width: 900px) {
     .titulo_video { width:100%; } 
-}
-
-
-
-@media all and (min-width:720px) {
-    .carousel-inner{
-        max-width: 100%;
-    }
-    
 }

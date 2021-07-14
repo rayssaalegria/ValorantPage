@@ -1,58 +1,45 @@
-
-
 .noticias{
     display: grid;
     margin: 50px;
     grid-gap: .6rem; 
-    grid-template-columns: 33.3% 33.3% 33.3% ;
-   
+    grid-template-columns: 33.3% 33.3% 33.3% ;  
     height: 110vh;
-    /* background-color: #000000;*/
 }
-
-
 .noticia_principal  {
     background: url(img/not1.jpeg) center / cover no-repeat;
     grid-column: 1 / 1; 
     grid-row: 1 / 1;
 }
-
 .noticia_segundaria:nth-child(2){
     background: url(img/not3.jpeg) center / cover no-repeat;
     grid-column: 2 / 2; 
     grid-row: 1 / 1;
 }
-
 .noticia_segundaria:nth-child(3){
     background: url(img/no2.jpeg) center / cover no-repeat;
     grid-column: 3 / 3; 
     grid-row: 1 / 1;
 }
-
 .noticia_segundaria:nth-child(4){
     background: url(img/concurso.jfif) center / cover no-repeat;
     grid-column: 1 / 1; 
     grid-row: 2 / 2;
 }
-
 .noticia_segundaria:nth-child(5){
     background: url(img/anoum.jfif) center / cover no-repeat;
     grid-column: 2 / 2; 
     grid-row: 2 / 2;
 }
-
 .noticia_segundaria:nth-child(6){
     background: url(img/impulso.jfif) center / cover no-repeat;
     grid-column: 3 / 3; 
     grid-row: 2 / 2;
 }
-
 .noticia_segundaria:nth-child(7){
     background: url(img/novopasse.jfif) center/ cover no-repeat;
     grid-column: 1 / 1; 
     grid-row: 3 / 3;
 }
-
 .noticia_segundaria:nth-child(8){
     background: url(img/torneios.jfif) center/ cover no-repeat;
     grid-column: 2 / 2; 
@@ -88,7 +75,6 @@
     display: flex;
     justify-content: center;
 }
-
 .noticias_titulo {
     background: rgba(0, 0, 0, 0.349);
     color: #fdfdfd;
@@ -99,7 +85,6 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.20em;
 }
-
 .titulo_noticia{
     margin: 50px;
     color: #ffffff;
@@ -107,6 +92,5 @@
     text-align: center;
 
     font-weight: bold;
-    font-size: 1em;
-    
+    font-size: 1em;  
 }
